@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DentalDomain
+namespace Persistance
 {
     public class Class1
     {

@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalProject", "DentalProject\DentalProject.csproj", "{7529F874-15A4-4B22-8D51-087579536D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalProject", "DentalProject\DentalProject.csproj", "{7529F874-15A4-4B22-8D51-087579536D00}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2FB82B45-5486-4A11-9F23-91F1085004FC} = {2FB82B45-5486-4A11-9F23-91F1085004FC}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalProjectDomain", "DentalDomain\DentalProjectDomain.csproj", "{2FB82B45-5486-4A11-9F23-91F1085004FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DentalProjectDomain", "DentalDomain\DentalProjectDomain.csproj", "{2FB82B45-5486-4A11-9F23-91F1085004FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{08E41208-173D-4748-ACBF-DBECA231DC7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{2FB82B45-5486-4A11-9F23-91F1085004FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB82B45-5486-4A11-9F23-91F1085004FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB82B45-5486-4A11-9F23-91F1085004FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E41208-173D-4748-ACBF-DBECA231DC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E41208-173D-4748-ACBF-DBECA231DC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E41208-173D-4748-ACBF-DBECA231DC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E41208-173D-4748-ACBF-DBECA231DC7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
