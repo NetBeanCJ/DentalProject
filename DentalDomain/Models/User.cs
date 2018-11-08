@@ -4,8 +4,9 @@ using System.Text;
 
 namespace DentalProjectDomain.Models
 {
-    class User
+    public class User
     {
+
         //private instance variables
         private int empID;
         private int sercuriteLevel;
