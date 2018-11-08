@@ -6,7 +6,7 @@ namespace DentalProjectDomain.Models
 {
    public class Journal
     {
-        public int JournalId { get; set; }
-        public List<Treatment>
+        //public int JournalId { get; set; }
+        //public List<Treatment>
     }
 }
