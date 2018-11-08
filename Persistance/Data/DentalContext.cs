@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Persistance.Data
 {
-    class DentalContext
+   public class DentalContext
     {
+
     }
 }

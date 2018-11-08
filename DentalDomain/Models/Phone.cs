@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DentalProjectDomain.Models
 {
-   public class Journal
+   public class Phone
     {
-        public int JournalId { get; set; }
+        public int PhoneId { get; set; }
         public int PatientId { get; set; }
-        //public List<Treatment> 
+
     }
 }

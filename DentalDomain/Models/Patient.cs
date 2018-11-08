@@ -7,11 +7,14 @@ namespace DentalProjectDomain.Models
    public class Patient
     {
         public int PatientId { get; set; }
-        public string  SocialSecurityNumber { get; set; }
+        public string  SSNR { get; set; }
         public string  FirstName{ get; set; }
         public string LastName { get; set; }
-        public string StreetName { get; set; }
-        public int Number { get; set; }
-
+        public string Email { get; set; }
+        public string Street { get; set; }
+        public int StrieetNo { get; set; }
+        public string City { get; set; }
+        public int PostCode { get; set;} 
+       public int JournalId { get; set; }
     }
 }
