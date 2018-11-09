@@ -13,4 +13,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DentalDomain\DentalProjectDomain.csproj" />
+  </ItemGroup>
+
 </Project>

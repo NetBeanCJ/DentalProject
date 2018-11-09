@@ -7,6 +7,7 @@ namespace DentalProjectDomain.Models
    public class Phone
     {
         public int PhoneId { get; set; }
+      
         public int PatientId { get; set; }
 
     }

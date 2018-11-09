@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DentalDomain\DentalProjectDomain.csproj" />
+    <ProjectReference Include="..\Persistance\Persistance.csproj" />
   </ItemGroup>
 
 </Project>
