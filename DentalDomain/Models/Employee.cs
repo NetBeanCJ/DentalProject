@@ -15,6 +15,10 @@ namespace DentalProjectDomain.Models
         public int StreetNr { get; set; }
         public string City { get; set; }
         public int Number { get; set; }
+        public User User { get; set; }
+        public override string ToString() => Email;
+
+
 
     }
 }

@@ -8,7 +8,7 @@ namespace DentalProjectDomain.Models
     {
 
         //private instance variables
-        private int empID;
+        private int userId;
         private int sercuriteLevel;
         private string loginName;
         private string password;
@@ -17,9 +17,10 @@ namespace DentalProjectDomain.Models
 
 
         // public properties 
+
         public int EmployeeID
         {
-            get { return empID; }
+            get { return userId; }
         }
         public string LoginName
         {
@@ -47,19 +48,19 @@ namespace DentalProjectDomain.Models
             set { department = value; }
         }
 
-        public User(int empID)
+        public User(int userId)
         {
-            if (empID == 1)
+            if (userId == 1)
             {
-                empID = 1;
+                userId = 1;
                 LoginName = "Donia";
                 password = "da";
                 Department = "IT";
                 Name = "Donia Ahmad";
             }
-            else if (empID == 2)
+            else if (userId == 2)
             {
-                empID = 2;
+                userId = 2;
                 LoginName = "Jones";
                 password = "mj";
                 Department = "HR";
@@ -69,11 +70,9 @@ namespace DentalProjectDomain.Models
             {
                 throw new Exception("Invalid EmployeeID");
             }
+
         }
 
-        public User()
-        {
-        }
 
         public void Login(string loginName, string password)
         {
@@ -81,12 +80,12 @@ namespace DentalProjectDomain.Models
             Password = password;
             if (loginName == "Donia" & password == "da")
             {
-                empID = 1;
+                userId = 1;
                 sercuriteLevel = 10;
             }
             else if (loginName == "Jones" & password == "mj")
             {
-                empID = 2;
+                userId = 2;
                 sercuriteLevel = 4;
             }
             else
