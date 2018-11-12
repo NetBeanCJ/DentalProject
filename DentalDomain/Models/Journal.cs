@@ -9,7 +9,7 @@ namespace DentalProjectDomain.Models
         public int JournalId { get; set; }
         public string Text{ get; set; }
 
-
-        public Patient Patients { get; set; }
+        public int PatientId { get; set; }
+        public Patient Patient { get; set; }
     }
 }
