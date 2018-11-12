@@ -157,13 +157,6 @@ namespace Persistance.Data
               .HasOne(pr => pr.Person)
               .WithMany(ph => ph.Phones)
               .HasForeignKey(pr => pr.PersonId);
-
-
-           
-
-        
-
-
         }
 
         //detta ska anväda när man jobbar mot db 
