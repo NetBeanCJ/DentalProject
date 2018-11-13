@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DentalProjectDomain.Models
 {
-        public abstract class Person
+        public class Person
         {
             public int PersonId { get; set; }
             public string SSRN { get; set; }
@@ -19,5 +19,5 @@ namespace DentalProjectDomain.Models
             public ICollection<Phone> Phones { get; set; }
         }
 
-    }
+    
 }
