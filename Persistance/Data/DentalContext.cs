@@ -59,7 +59,6 @@ namespace Persistance.Data
             //    .ToTable(nameof(Employee));
 
 
-            // *********************************************************************** EMPLOYEE
             modelBuilder.Entity<Employee>()
                           .Property(em => em.EmpoyeeId)
                           .ValueGeneratedOnAdd();
@@ -141,9 +140,6 @@ namespace Persistance.Data
             //  .HasForeignKey(pr => pr.PersonId);
         }
 
-        //detta ska anväda när man jobbar mot db 
-        //public DbSet<Employee> Employees { get; set; }
-        //public DbSet<Phone> Phones { get; set; }
 
 
 
